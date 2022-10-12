@@ -201,6 +201,11 @@ input.onButtonEvent(Button.B, input.buttonEventClick(), function () {
         `)
     basic.pause(2000)
     music.playMelody("C5 B A G F E D C ", 9991)
+    music.playMelody("C D E F G A B C5 ", 1193)
+    music.playMelody("C D E F G A B C5 ", 1193)
+    music.playMelody("C D E F G A B C5 ", 1193)
+    music.playMelody("C D E F G A B C5 ", 1193)
+    music.playMelody("C D E F G A B C5 ", 1193)
     basic.showLeds(`
         . . # . .
         . . . . .
@@ -250,6 +255,8 @@ input.onButtonEvent(Button.B, input.buttonEventClick(), function () {
         . # # # .
         # # # # #
         `)
+    basic.clearScreen()
+    basic.turnRgbLedOff()
 })
 basic.forever(function () {
 	
